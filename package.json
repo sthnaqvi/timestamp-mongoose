@@ -1,0 +1,38 @@
+{
+  "name": "timestamp-mongoose",
+  "description": "Mongoose plugin that automatically adds createdAt and updatedAt date properties",
+  "version": "0.0.1",
+  "author": "Sayed Tauseef Naqvi <tauseef.naqvi786@gmail.com>",
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "plugin",
+    "timestamp",
+    "timestamps",
+    "createdAt",
+    "updatedAt",
+    "save",
+    "update",
+    "findOneAndUpdate",
+    "updateOne",
+    "updateMany"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sthnaqvi/timestamp-mongoose"
+  },
+  "scripts": {
+    "test": "mocha -u bdd -R spec -c ./test/*test.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "mongoosastic": "^4.5.0",
+    "mongoose": "^5.6.6",
+    "request": "^2.88.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "defaults": "^1.0.3"
+  }
+}
