@@ -1,7 +1,7 @@
 {
   "name": "timestamp-mongoose",
   "description": "Mongoose plugin that automatically adds createdAt and updatedAt date properties",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Sayed Tauseef Naqvi <tauseef.naqvi786@gmail.com>",
   "keywords": [
     "mongodb",
