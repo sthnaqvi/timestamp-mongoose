@@ -7,6 +7,9 @@ Mongoose Timestamps Plugin
 [![Downloads Monthly](https://img.shields.io/npm/dm/timestamp-mongoose.svg)](https://www.npmjs.com/package/timestamp-mongoose)
 [![Downloads Total](https://img.shields.io/npm/dt/timestamp-mongoose.svg)](https://www.npmjs.com/package/timestamp-mongoose)
 
+
+Fork of [mongoose-timestamp](https://github.com/drudge/mongoose-timestamp) add some feature and fix some open issues.
+
 Simple plugin for [Mongoose](https://github.com/Automattic/mongoose) which adds `createdAt` and `updatedAt` date attributes
 that get auto-assigned to the most recent create/update timestamp.
 
